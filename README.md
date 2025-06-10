@@ -1,16 +1,50 @@
-# gesture_detector_practice
+# gesturedetector_practice
 
-A new Flutter project.
+My small project for GestureDetector widget
 
-## Getting Started
+This project shows how flexible the GestureDetector widget is! I made a mini-app to test different gestures like taps, swipes, pinches, and more.
 
-This project is a starting point for a Flutter application.
+# Three Interactive Screens
+*Home Page:*
 
-A few resources to get you started if this is your first Flutter project:
+Tap anywhere on the screen → changes background color 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Double-tap → "to like" the page (shows a heart icon) ❤️
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Long-press → reveals hidden text (mostly used to hold status on WhatsApp or story on Instagram so that you can watch the video for a long time)
+
+*Second Page:*
+
+Drag the image → moves it around freely 
+
+Pinch/zoom → resizes the image 
+
+*Image Page:*
+
+All gestures work together! Try rotating/zooming while dragging.
+
+Gestures I Used
+I implemented these gesture callbacks:
+
+onTap: For basic taps ( tapping on the image will changes its color)
+
+onDoubleTap: For double-clicks (you will get or see a like at the bottom of the page)
+
+onLongPressStart/End: Shows text while pressing
+
+onLongPress: Fires after holding down
+
+onTapDown: Detects the moment you touch screen
+
+onScaleUpdate: Handles pinching/zooming/dragging
+
+Real-World Examples Shown
+Tapping: Changes UI colors (like theme toggles)
+
+Double-tap: "Likes" content (Instagram-style)
+
+Dragging/Pinching: Moves/resizes images (photo editors)
+
+# Images for the Demo
+
+Images for the Demo app can be found in the Images folder.
